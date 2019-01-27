@@ -1,0 +1,67 @@
+.container-fluid{
+    height: 100vh;
+}
+
+.hero,.enemy{
+    height: 33.33%;
+}
+
+.hero img{
+    width: 65%;
+    object-fit: fill;
+    height: calc(100%-20px);
+}
+
+.enemy img{
+    width: 65%;
+    height: calc(100%-20px);
+    /* transform: scaleX(-1); */
+}
+
+.hero.active, .enemy.active{
+    border: 3px solid gold;
+}
+
+.hero.targetable{
+    border: 3px solid green;
+    cursor: pointer;
+}
+
+.hero.targetable{
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+.health-bar{
+    height: 20px;
+}
+
+.progress-bar{
+    color: black;
+    background-color: red;
+    padding: 7px 0px;
+}
+
+.message-box{
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 3px solid lavenderblush;
+    padding: 10px;
+    border-radius: 7px;
+    overflow-y: auto;
+}
+
+.options-bar{
+    background-color: lavenderblush;
+    border-top: 2px solid teal;
+}
+
+.action-option{
+    cursor: pointer;
+}
+
+.action-option.selected{
+    background-color: rgb(0, 0, 150);
+    color: lavenderblush;
+}

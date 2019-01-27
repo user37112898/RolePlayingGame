@@ -1,0 +1,27 @@
+.story-page{
+    height: 100vh;
+}
+
+.story-container{
+    background: rgba(0, 0, 0, 0.5);
+    border: 3px solid lavenderblush;
+    border-radius: 7px;
+    overflow-y: auto;
+}
+
+.encounter-option:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: teal;
+}
+
+.encounter-option{
+    background-color: rgba(0, 128, 128, 0.5);
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.options-bar{
+    background-color: lavenderblush;
+    border-top: 2px solid teal;
+}

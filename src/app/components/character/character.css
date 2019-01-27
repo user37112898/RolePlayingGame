@@ -1,0 +1,73 @@
+.container-fluid{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
+.sidebar{
+    background-color: teal;
+    color:white
+}
+
+.sidebar ul{
+    list-style: none;
+    text-indent: 0;
+}
+
+.sidebar li{
+    cursor: pointer;
+    display: block;
+    background-color:darkslategray;
+    color: white;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.sidebar li.active{
+    /* background-color: rgb(0, 0, 150); */
+    background-color: lavenderblush;
+    color: teal;
+    font-weight: bold;
+}
+
+.centerbar h2{
+    font-size: 50px;
+    -webkit-text-stroke: 0.5px white;
+    color: teal;
+    font-weight: bolder;
+    border: 5px;
+    border-color: lavenderblush;
+}
+
+.gender-button{
+    cursor: pointer;
+    display: block;
+    background-color: teal;
+    color: lavenderblush;
+    border-radius: 7px;
+    width: 50px;
+    font-size: 30px;
+}
+
+.gender-button.active{
+    /* background-color: rgb(0, 0, 150); */
+    background-color: lavenderblush;
+    color: teal;
+}
+
+.continue-button{
+    display: block;
+    cursor: pointer;
+    /* color: white;
+    background-color: rgb(0, 0, 150); */
+    background-color: lavenderblush;
+    color: teal;
+    cursor: auto;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+}
+
+.continue-button.disabled{
+    background-color: darkslategray;
+    color: lavenderblush;
+}

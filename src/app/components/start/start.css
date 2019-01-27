@@ -1,0 +1,30 @@
+.container{
+    height: 100vh;
+    padding: calc(40vh - 60px);
+}
+
+h1{
+    font-size: 80px;
+    color: teal;
+    -webkit-text-stroke: 1px lavenderblush;
+    font-weight: bolder;
+}
+
+a{
+    background-color: teal;
+    font-weight: bold;
+    border: 1px solid lavenderblush;
+}
+
+a:hover{
+    background-color:lavenderblush;
+    color:  teal;
+    font-weight: bold;
+    border: 1px solid teal;
+}
+
+p{
+    font-style: italic;
+    font-weight: 400;
+    color: lavenderblush;
+}
